@@ -11,7 +11,7 @@ const Header = ({ isSidebarOpen, toggleSidebar }) => {
   };
 
   return (
-    <header className="bg-blue-900 text-white py-6 shadow-md">
+    <header className=" fixed top-0 left-0 right-0 z-50 bg-blue-900 text-white px-4 py-3 shadow-md">
       <div className="max-w-5xl mx-auto px-4 flex items-center justify-between">
         {/* زر التحويل بين Burger و X */}
         <button onClick={toggleSidebar} className="flex flex-col justify-center items-center w-10 h-10 group">

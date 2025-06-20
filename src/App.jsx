@@ -130,10 +130,9 @@ function App() {
   ];
 
   return (
-    <div className="App bg-gradient-to-br from-cyan-100 to-white min-h-screen">
+    <div className="pt-16 px-4 App bg-gradient-to-br from-cyan-100 to-white min-h-screen">
 <Header isSidebarOpen={showSidebar} toggleSidebar={() => setShowSidebar(!showSidebar)} />
 
-      {/* السايد بار */}
       {showSidebar && (
         <>
           <SideBar toggleSidebar={() => setShowSidebar(false)}/>

@@ -12,7 +12,7 @@ export function Footer() {
     >
      
       <div>
-        <p className="tracking-[0.2rem] flex items-center gap-2 text-from-pink-500 to-purple-500 text-[1.8rem] max-[600px]:text-[1.2rem]">
+        <p className="tracking-[0.2rem] flex items-center gap-2 text-white to-purple-500 text-[1.8rem] max-[600px]:text-[1.2rem]">
           Scientific Research Library
         </p>
       </div>
